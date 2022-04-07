@@ -1,0 +1,1 @@
+wyrazy = ["humorystyka", "strzelanina", "egzaminator", "niesamowity", "alfabet", "narzeczony", "rozproszenie", "wysublimowany", "komputer", ""]
