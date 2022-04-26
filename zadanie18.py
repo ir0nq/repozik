@@ -1,3 +1,5 @@
+#kiedy pisalem ten kod oprocz mnie tylko bog wiedzial o co tu chodi
+#Teraz tylko bog wie o co tu chodzi ale wazne ze dziala
 przes = 3
 
 wiad = input("Podaj wiadomosc ktora chcesz zaszyfrowac(nie podawaj polskich znakow i podawaj tylko duze litery) ")
