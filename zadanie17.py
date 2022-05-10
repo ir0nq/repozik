@@ -26,7 +26,7 @@ obrazki = ['''
 =============================================================
 ||  \              /     __        ___        ___    ___   ||              +---+
 ||   \            /  |  /     |   |     |    |      /      ||              O   |
-||    \    /\    /   |  \__   |   |__   |    |__   |       ||             /|\   |
+||    \    /\    /   |  \__   |   |__   |    |__   |       ||             /|\  |
 ||     \  /  \  /    |     \  |   |     |    |     |       ||                  |
 ||      \/    \/     |   __/  |   |___  |___ |___   \___   ||                 ===
 =============================================================    ''','''
@@ -84,11 +84,12 @@ def plansza(bledneLitery, poprawneLitery, slowo):
    print(obrazki[len(bledneLitery)])
 
    print("=============================")
-   print("Bledne litery: ")
-   print("=============================")
+   print("Bledne litery: ", end=" ")
    for litera in bledneLitery:
-      print(litera, end=' ')
+      print(litera, end=" ")
    print()
+   print("=============================")   
+   
 
    nieZgadniete = '_' * len(slowo)
 
@@ -138,7 +139,22 @@ while True:
             znalezionoWszystko = False
             break
       if znalezionoWszystko:
-         print('Brawo, zgadles slowo"' + slowo +'"! Wygrales!')
+         print("")
+         print("")
+         print("")
+         print("")
+         print("")
+         print("=====================")
+         print("WYGRALES!!!")
+         print("=====================")
+         print("Poprawne: " + "Wszystkie")
+         print("Bledne: " + str(len(bledneLitery)))
+         print("=====================")
+         print("Slowo to oczywiscie: " + slowo)
+         print("=====================")
+         print("")
+         print("")
+         print("")
          graSkonczona = True
 
    else:
@@ -158,6 +174,8 @@ while True:
          print("=====================")
          print("Slowo to: " + slowo)
          print("=====================")
+         print("")
+         print("")
          print("")
          graSkonczona = True
 
