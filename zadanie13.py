@@ -1,6 +1,6 @@
 import random
 
-from numpy import infty
+from numpy import infty #numpy moze nie dzialac problem z biblioteka pip
 
 liczba=random.randint(1,20)
 
@@ -18,4 +18,4 @@ else:
         proby.append(a)
         a=int(input("Pudlo, probuj dalej. Podaj nastepny strzal."))
     if a==liczba:
-        print(f"Gratuluje, trafiles liczbe za {proby} razem")
+        print(f"Gratuluje, trafiles liczbe za {len(proby)} razem")
